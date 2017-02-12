@@ -75,7 +75,7 @@ h1 {
 		height: 210px;
 		width: calc(50% - 8px);
 	}
-	.col-md-6:first-child{
+	.col-md-6:nth-child(3n+1) {
 		margin-right: 16px;
 	}	
 }
@@ -87,7 +87,7 @@ h1 {
 		width: calc((100% - 32px) / 3);
 		margin-left: 16px;
 	}
-	.col-lg-4:first-child{
+	.col-lg-4:nth-child(3n+1){
 		margin-left: 0;
 	}
 }
